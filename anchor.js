@@ -25,7 +25,7 @@ module.exports = async (req, res) => {
     // Invio transazione: a se stesso, con l'hash come payload "data"
     const tx = await wallet.sendTransaction({
       to: wallet.address,
-      value: 0,
+      value: 0n,
       data: hashClean,
     });
 
