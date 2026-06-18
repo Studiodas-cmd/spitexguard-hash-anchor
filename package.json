@@ -1,0 +1,9 @@
+{
+  "name": "spitexguard-hash-anchor",
+  "version": "1.0.0",
+  "description": "Endpoint serverless per ancorare hash di note cliniche su Polygon Amoy",
+  "main": "api/anchor.js",
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
